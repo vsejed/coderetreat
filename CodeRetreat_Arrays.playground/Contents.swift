@@ -23,19 +23,19 @@ public func isEmpty(array: [Int]) -> Bool {
 // Expert:
 
 extension Sequence {
-    @inlinable public func map<T>(_ transform: (Element) throws -> T) rethrows -> [T] {
+    @inlinable public func map2<T>(_ transform: (Element) throws -> T) rethrows -> [T] {
         fatalError("to be implemented")
     }
 }
 
 extension Sequence {
-    @inlinable public func reduce<Result>(_ initialResult: Result, _ nextPartialResult: (_ partialResult: Result, Element) throws -> Result) rethrows -> Result {
+    @inlinable public func reduce2<Result>(_ initialResult: Result, _ nextPartialResult: (_ partialResult: Result, Element) throws -> Result) rethrows -> Result {
         fatalError("to be implemented")
     }
 }
 
 extension Collection {
-    @inlinable public var isEmpty: Bool {
+    @inlinable public var isEmpty2: Bool {
         fatalError("to be implemented")
     }
 }
